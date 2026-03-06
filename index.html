@@ -1,0 +1,173 @@
+<!-- Wraps the whole page and shows this is an html document -->
+<!DOCTYPE html>
+<!-- root element that contains all the content -->
+<html lang="en">
+    <!-- Contains all the most top part of the page -->
+<head>
+    <!-- This contains the outlook of the page -->
+    <style>
+        .drinks-section {
+            display: flex;
+            align-items: center;
+gap: 65px;
+padding: 20px;
+        }
+        .drink-image {
+width: 300px;
+border-radius: 12px;
+        }
+.food-section {
+            display: flex;
+            align-items: center;
+gap: 30px;
+padding: 20px;
+        }
+        .food-image {
+width: 300px;
+border-radius: 12px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Delicious Bites</title>
+    <!-- Heading of the page -->
+     <h1 style="text-align: center;">DELICIOUS BITES</h1>
+     <!-- Welcome note for viewers -->
+<h2>Welcome to Delicious Bites</h2>
+</head>
+<body style="background-color: rgb(230, 205, 170);">
+    <!-- About delicious bites -->
+ <p>Delicious Bites is a cozy restaurant that offers fresh, tasty meals made with high-quality ingredients. 
+    We serve a variety of local and international dishes in a warm and welcoming environment for all our customers.
+ </p>
+ <!-- Line break -->
+ <hr>
+ <!-- This container wraps only the drinks section -->
+ <div class="drinks-section">
+    <div class="drinks-list">
+ <!-- Subheading for the drinks menu content -->
+ <h3>Drinks</h3>
+ <!-- Unordered list for drinks -->
+ <ul>
+    <li>
+        <b>Fruity Splash</b>
+    </li>
+    <!-- em tag emphasizes and by default makes the words italic -->
+    <em>Organic plain fruit of choice</em>
+    <li>
+        <b>Healthy Hibiscus </b>
+    </li>
+    <em>Slow brewed hibiscus for healthy choice</em>
+    <li>
+        <b>Tropical Cabana</b>
+    </li>
+    <em>Pineapple, Coconut, Mango, Hint of Ginger</em>
+    <li>
+        <b>Blue lagoon mojito</b>
+    </li>
+    <em>Organic lime,  Sparkling soda, Syrup, Chef's secret</em>
+  </ul>
+  </div>
+  <img src="/Images/tropical.cabana.jpg" alt="Caesar Salad" width="200px">
+  <img src="/Images/Bluelagoon.webp" alt="Blue lagoon mojito" width="200px">
+  <img src="/Images/Hibiscus.jpg" alt="Healthy Hibiscus" width="200px">
+</div>
+  <hr>
+  <!-- This container wraps only the food section -->
+ <div class="food-section">
+    <div class="food-list">
+  <!-- Subheading for the food menu content -->
+   <h3>Food</h3>
+   <!-- Ordered list for food -->
+    <ol>
+        <li>
+            <b>Creamy Carbonara</b>
+        </li>
+        <em>Pasta, Cream, Parmesan, Eggs, Pancetta</em>
+        <li>
+            <b>Pan seared beef</b>
+        </li>
+        <em>Oven baked Cubed beef served wiith Wedges</em>
+        <li>
+            <b>Caesar Salad</b>
+        </li>
+        <em>Lettuce, Egg, Croutons, Garlic, Parmesan, Anchovies</em>
+        <li>
+            <b>Beef / Chicken Pilau</b>
+        </li>
+        <em>Swahili style pilau with aromatics and protein of choice</em>
+    </ol>
+     </div>
+    <img src="/Images/Caesar-Salad-06.jpg" alt="Caesar Salad" width="200px">
+    <img src="/Images/Carbonara.jpg" alt="Creamy Carbonara" width="225">
+    <img src="/Images/Pansearedbeefcubes.jpeg" alt="Pan seared beef" width="300">
+     </div>
+    <!-- Horizontal ruler to separate sections -->
+    <hr>
+    <!-- This tag creates spaces between content -->
+    <br>
+    <!-- Table form showing availability of food items and its prices -->
+    <table width="100%" border="1" cellpadding="15">
+        <tr>
+        <th>Food Item</th>
+        <th>Price</th>
+        <th>Availability</th>
+        </tr>
+        <tr>
+            <td>Carbonara</td>
+            <td>39000</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Caesar Salad</td>
+            <td>42000</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Pilau</td>
+            <td>35000</td>
+            <td>Yes</td>
+        </tr>
+
+    </table>
+    <hr>
+    <!-- Link to delicious bites website -->
+<p>
+<a href="https://deliciousbites.com" target="_blank"><em>Visit Our Instagram</em></a>
+</p><br>
+<button style="color: rgb(128, 100, 66);">Order Now</button>
+<!-- Contact information details -->
+    <h2>Contact Us</h2>
+<!-- Form contains customer details and food selection -->
+    <form>
+
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="text" placeholder="Enter your email"><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="text" placeholder="Enter your phone number"><br><br>
+
+        <label>Order Selection:</label><br>
+        <select>
+            <option>Carbonara</option>
+            <option>Caesar Salad</option>
+            <option>Pilau</option>
+            <option>Pan Seared Beef</option>
+        </select><br><br>
+        <select>
+            <option>Fruity Splash</option>
+            <option>Healthy Hibiscus</option>
+            <option>Tropical Cabana</option>
+            <option>Blue lagoon mojito</option>
+        </select><br><br>
+        <label>Message:</label><br>
+        <textarea placeholder="Your Message"></textarea><br><br>
+
+        <button type="submit" style="color: rgb(128, 100, 66);">Submit</button>
+    </form>
+</body>
+</html>
